@@ -58,7 +58,7 @@
   height: 2rem;
   background-color: rgb(28, 28, 28);
   box-shadow: inset 3px 3px 4px rgb(32, 32, 32);
-  border: 0.5px solid white;
+  border: 0.5px solid rgb(132, 132, 132);
 }
 
 .pixel:hover {

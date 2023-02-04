@@ -1,8 +1,8 @@
 import Row from "./Row";
 
 const DrawingPanel = ({ gridSize, color }) => {
-  const { width } = gridSize;
-  const makeRows = Array.from(Array(width).keys());
+  const { width, height } = gridSize;
+  const makeRows = Array.from(Array(height).keys());
 
   return (
     <article className="editor">
