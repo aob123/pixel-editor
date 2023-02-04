@@ -21,8 +21,8 @@ const Form = ({ setGridSize, setGridSet }) => {
     <article className="dimensions-form">
       <h2>Please Choose Dimensions</h2>
       <form action="submit">
-        <input onChange={handleHeight} type="number" />
         <input onChange={handleWidth} type="number" />
+        <input onChange={handleHeight} type="number" />
         <button onClick={handleSubmit}>Start Drawing</button>
       </form>
     </article>
